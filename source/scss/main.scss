@@ -1,0 +1,18 @@
+@import "./libs/normalize";
+@import "./global/global";
+
+@import "./blocks/_page";
+@import "./blocks/_page-header";
+@import "./blocks/_page-nav";
+
+@import "./blocks/_advantages";
+@import "./blocks/layout";
+
+
+h1 {
+  color: green;
+}
+
+.icon {
+  fill: inherit;
+}

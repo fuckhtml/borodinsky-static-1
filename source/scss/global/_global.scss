@@ -1,0 +1,21 @@
+
+@font-face {
+  font-family: "PT Sans Narrow";
+  font-weight: 600;
+  src:
+    url("./../fonts/ptsansnarrow-bold.woff2") format("woff2"),
+    url("./../fonts/ptsansnarrow-bold.woff") format("woff");
+}
+
+.visually-hidden {
+	position: absolute !important;
+	clip: rect(1px 1px 1px 1px); /* IE6, IE7 */
+	clip: rect(1px, 1px, 1px, 1px);
+	padding:0 !important;
+	border:0 !important;
+	height: 1px !important;
+	width: 1px !important;
+	overflow: hidden;
+}
+
+

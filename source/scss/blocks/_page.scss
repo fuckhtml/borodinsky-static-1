@@ -1,0 +1,28 @@
+.page__body {
+  font-family: "PT Sans Narrow";
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 24px;
+  text-transform: uppercase;
+  color: black;
+}
+
+.page__body--index {
+  background: black url("./../img/bg-index.jpg") top center no-repeat;
+  background-size: cover;
+
+  //
+  // margins
+  .page-header {
+    margin-bottom: 60px;
+  }
+  .advantages {
+    margin-bottom: 70px;
+  }
+  .container:nth-of-type(1) {
+    margin-bottom: 36px;
+  }
+  .page-footer {
+    margin-top: 65px;
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "name": "borodinsky-static-1",
+  "version": "1.0.0",
+  "description": "Barbershop Borodinsky, a simple grid-static website.",
+  "main": "gulpfile.js",
+  "scripts": {
+    "build": "gulp build",
+    "start": "gulp"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fuckhtml/borodinsky-static-1.git"
+  },
+  "author": "Grigoriev Alexander",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fuckhtml/borodinsky-static-1/issues"
+  },
+  "homepage": "https://github.com/fuckhtml/borodinsky-static-1#readme",
+  "devDependencies": {
+    "browser-sync": "2.26.13",
+    "del": "6.0.0",
+    "gulp": "4.0.2",
+    "gulp-changed": "4.0.2",
+    "gulp-imagemin": "7.1.0",
+    "gulp-plumber": "1.2.1",
+    "gulp-posthtml": "3.0.5",
+    "gulp-sass": "4.1.0",
+    "gulp-sourcemaps": "3.0.0",
+    "posthtml-include": "1.6.0"
+  }
+}

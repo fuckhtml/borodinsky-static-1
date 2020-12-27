@@ -1,0 +1,21 @@
+.layout {
+  display: grid;
+  grid-template-columns: repeat(12, 60px);
+  column-gap: 20px;
+  height: 1000px;
+
+  background-color: white;
+  background-image:
+    url("./../img/bg-element-shadow.png"),
+    url("./../img/bg-pattern-bright.jpg"),
+  ;
+
+  background-repeat:
+    no-repeat,
+    repeat
+  ;
+  background-position:
+    center,
+    center,
+  ;
+}
