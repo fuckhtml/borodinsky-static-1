@@ -1,29 +1,36 @@
 .page__body {
+  // Typography
+  
+  // p 
   font-family: "PT Sans Narrow";
   font-weight: 600;
   font-size: 14px;
   line-height: 24px;
   text-transform: uppercase;
-  color: black;
+  color: red;
 
-  .page__title-1 {
+  // .page__heading-1 {
 
-  }
-  .page__title-2 {
+  // }
+  // .page__heading-2 {
 
-  }
+  // }
 
-  p {
+  // p {
 
-  }
+  // }
 }
 
 .page__body--index {
   background: black url("./../img/bg-index.jpg") top center no-repeat;
   background-size: cover;
+  
+  // elements
+  .page__title {
+    @include visually-hidden;
+  }
 
-  //
-  // margins
+  // inner blocks
   .page-header {
     margin-bottom: 60px;
   }

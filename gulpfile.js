@@ -2,6 +2,7 @@ const browserSync = require("browser-sync").create()
 const del = require("del")
 
 const gulp = require("gulp")
+const glob = require("gulp-sass-glob")
 const plumber = require("gulp-plumber")
 
 const posthtml = require("gulp-posthtml")
@@ -51,6 +52,7 @@ const scss = () => {
     .pipe(plumber())
 
     .pipe(sourcemaps.init())
+    .pipe(glob())
     .pipe(sass())
     .pipe(sourcemaps.write())
 
@@ -82,6 +84,6 @@ exports.build = gulp.series(
 
 // development
 exports.default = gulp.series(
-  gulp.parallel(fonts, images, html, scss),
-  sync
+  // gulp.parallel(fonts, images, html, scss),
+  gulp.series(scss, sync)
 )
